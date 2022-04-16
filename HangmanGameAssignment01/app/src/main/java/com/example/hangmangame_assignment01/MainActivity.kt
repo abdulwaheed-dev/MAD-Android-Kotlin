@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
     private val words = arrayOf("ball", "account", "goggles", "noodles", "follower", "bitter", "egg", "been", "cool", "chess", "comma", "funny","hurry","press","rupee","yahoo","common","indeed","killed")
     var guessedWord : String = ""
     var won : Boolean = false
-    var finalMessage : String = "you have guessed: -word- (x guesses left)"
     var guessLeft : Int = 0
-    val images = arrayOf(R.drawable.one, R.drawable.two, R.drawable.three, R.drawable.four, R.drawable.five, R.drawable.six, R.drawable.seven)
+    private val images = arrayOf(R.drawable.one, R.drawable.two, R.drawable.three, R.drawable.four, R.drawable.five, R.drawable.six, R.drawable.seven)
     private var character : Char = ' '
+    var word : String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,18 +30,43 @@ class MainActivity : AppCompatActivity() {
         val imageView = findViewById<ImageView>(R.id.imageView)
         val txtViewDescription = findViewById<TextView>(R.id.txtViewDescription)
         val txtViewGuess = findViewById<TextView>(R.id.txtViewGuessWord)
+        val lblGuessLeft = findViewById<TextView>(R.id.guessLeft)
 
         val convertedWord = convertWord()
         txtViewGuess.text = convertedWord
 
         btnGuess.setOnClickListener(){
             val guessedChar : Char = txtGuess.text.toString()[0]
-            if(character === guessedChar){
-                txtViewDescription.text =
-                        "Wow! you guessed right.\nYou have guessed: $guessedChar (x guesses left)"
+            if (guessLeft < 6 && !won){
+                if(character === guessedChar){
+                    won = true
+                    txtViewDescription.text = "Wow! Your guess $guessedChar is Right.\nThe word is: $word \nClick New for next word."
+                    txtGuess.isEnabled = false
+                    btnGuess.isEnabled = false
+                }
+                else{
+                    guessLeft++
+                    txtViewDescription.text = "Your guess $guessedChar is Wrong!\nTry Again."
+                    imageView.setImageResource(images[guessLeft])
+                }
+                lblGuessLeft.text = "Guess Left: "+(7-guessLeft)
             }
+            else{
+                if(!won){
+                    btnGuess.isEnabled = false
+                    txtGuess.isEnabled = false
+                    lblGuessLeft.text = "Guess Left: "+(0)
+                    txtViewDescription.text = "No Guess Left!\nYou lost the game.\nClick New for next word."
+                }
+            }
+            txtGuess.text.clear()
         }
         btnNew.setOnClickListener(){
+            txtViewDescription.text = "Enter Letter to Guess."
+            imageView.setImageResource(images[0])
+            txtGuess.isEnabled = true
+            guessLeft = 0
+            btnGuess.isEnabled = true
             txtGuess.text.clear()
             val convertedWord = convertWord()
             txtViewGuess.text = convertedWord
@@ -50,7 +75,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun convertWord(): String {
         val randomIndex = (words.indices).random()
-        var word = words[randomIndex]
+        word = words[randomIndex]
         var converting=""
 
         var flag = false

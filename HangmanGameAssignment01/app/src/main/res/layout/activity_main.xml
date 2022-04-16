@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
-        app:srcCompat="@drawable/seven" />
+        app:srcCompat="@drawable/one" />
 
     <TextView
         android:id="@+id/txtViewGuessWord"
@@ -109,15 +109,27 @@
         android:id="@+id/txtViewDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="19dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="76dp"
         android:layout_marginRight="76dp"
         android:gravity="center_horizontal"
-        android:text="you have guessed: -word- (x guesses left)"
+        android:text="Enter Letter to Guess."
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGuess" />
+
+    <TextView
+        android:id="@+id/guessLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="19dp"
+        android:text="Guess Left:"
+        app:layout_constraintStart_toEndOf="@+id/txtViewDescription"
         app:layout_constraintTop_toBottomOf="@+id/btnGuess" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
