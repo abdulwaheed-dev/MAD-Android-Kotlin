@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun signup(view : View){
+    fun signupScreen(view : View){
         val intent2 : Intent = Intent(this, Signup::class.java)
         startActivity(intent2)
 
@@ -26,9 +26,14 @@ class MainActivity : AppCompatActivity() {
         val username = txtUsername.text.toString()
         val password = txtPassword.text.toString()
 
-        if(username == "waheed" && password == "abc123"){
+        val intent = getIntent()
+        val user = intent.getStringExtra("username")
+        val pass = intent.getStringExtra("password")
+        val name = intent.getStringExtra("name")
+
+        if(username == user && password == pass){
             val intent : Intent = Intent(this, WelcomScreen::class.java)
-            intent.putExtra("name",username)
+            intent.putExtra("name",name)
             startActivity(intent)
         }
         else{
