@@ -11,3 +11,4 @@
 ## :arrow_right: [preference-example](https://github.com/abdulwaheedchachar/preference-example-android-kotlin)
 ## :arrow_right: [MusicPlayer-SpeechToText](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/musicPlayer-SpeechToText)
 ## :arrow_right: [HangmanGame-Assignment01](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/HangmanGameAssignment01)
+## :arrow_right: [Dice Rolling Game](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/DiceGame)
