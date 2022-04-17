@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/titleSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00BCD4"
@@ -37,7 +37,7 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
+        app:layout_constraintTop_toBottomOf="@+id/titleSignup" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -65,6 +65,7 @@
         android:layout_marginEnd="164dp"
         android:layout_marginRight="164dp"
         android:layout_marginBottom="28dp"
+        android:onClick="changeScreen4"
         android:text="Login"
         app:layout_constraintBottom_toTopOf="@+id/btnSignup"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,6 +81,7 @@
         android:layout_marginEnd="97dp"
         android:layout_marginRight="97dp"
         android:layout_marginBottom="293dp"
+        android:onClick="changeScreen"
         android:text="Not a member? SignUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
