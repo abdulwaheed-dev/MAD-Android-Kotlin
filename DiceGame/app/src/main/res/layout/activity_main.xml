@@ -58,30 +58,12 @@
         android:layout_marginTop="47dp"
         android:layout_marginEnd="279dp"
         android:layout_marginRight="279dp"
-        android:text="Dice"
+        android:gravity="center_horizontal"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLeftDice" />
-
-    <TextView
-        android:id="@+id/lblRightDice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginRight="95dp"
-        android:layout_marginBottom="327dp"
-        android:text="Dice"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/lblLeftDice"
-        app:layout_constraintTop_toBottomOf="@+id/imgRightDice" />
 
     <Button
         android:id="@+id/btnPlay"
@@ -97,5 +79,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblLeftDice" />
+
+    <TextView
+        android:id="@+id/lblRightDice"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblLeftDice"
+        app:layout_constraintTop_toBottomOf="@+id/imgRightDice" />
+
+    <TextView
+        android:id="@+id/lblWonStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:text="Won"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
