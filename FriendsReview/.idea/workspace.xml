@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3b10c4-18ef-4705-82a4-fdbd60c3536e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mid1LabExam/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mid1LabExam/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc3b10c4-18ef-4705-82a4-fdbd60c3536e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,8 +28,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -107,6 +112,28 @@
       <option name="presentableId" value="Default" />
       <updated>1650393689749</updated>
     </task>
+    <task id="LOCAL-00001" summary="friendsReview init commit">
+      <created>1650393852019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650393852019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="friendsReview init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="friendsReview init commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="201" y="0" key="CommitChangelistDialog2" timestamp="1650393850598">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="201" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1650393850598" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1650393868209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1650393868209" />
   </component>
 </project>
