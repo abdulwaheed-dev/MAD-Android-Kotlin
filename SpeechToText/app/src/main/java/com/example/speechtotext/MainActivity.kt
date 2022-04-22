@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.speech.RecognizerIntent
 import android.view.View
+import android.widget.TextView
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -25,5 +26,18 @@ class MainActivity : AppCompatActivity() {
 
         startActivityForResult(intent,1234)
 
+    }
+
+    //receiving speech results
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        val txt = findViewById<TextView>(R.id.textView2)
+
+        super.onActivityResult(requestCode, resultCode, data)
+
+        val res = data?.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)
+
+        val words : String = res?.get(0).toString()
+
+        txt.text = words
     }
 }
