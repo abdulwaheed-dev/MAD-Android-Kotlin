@@ -6,13 +6,16 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3b10c4-18ef-4705-82a4-fdbd60c3536e" name="Default Changelist" comment="" />
+    <list default="true" id="cc3b10c4-18ef-4705-82a4-fdbd60c3536e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SpeechToText/app/src/main/java/com/example/speechtotext/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpeechToText/app/src/main/java/com/example/speechtotext/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpeechToText/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpeechToText/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[557TSK6LM7AIDAUG]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
