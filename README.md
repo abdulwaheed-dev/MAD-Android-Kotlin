@@ -14,3 +14,4 @@
 ## :arrow_right: [Dice Rolling Game](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/DiceGame)
 ## :arrow_right: [Login-Signup](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/LoginSignup)
 ## :arrow_right: [Pizza Ordering App](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/Mid1LabExam)
+## :arrow_right: [Friends Review](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/FriendsReview)
