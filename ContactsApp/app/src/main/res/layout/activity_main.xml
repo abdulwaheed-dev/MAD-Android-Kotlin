@@ -104,6 +104,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="132dp"
         android:layout_marginRight="132dp"
+        android:onClick="saveContact"
         android:text="Save Contact"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
