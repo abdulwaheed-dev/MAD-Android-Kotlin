@@ -17,3 +17,5 @@
 ## :arrow_right: [Friends-Review](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/FriendsReview)
 ## :arrow_right: [Speech-To-Text](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/SpeechToText)
 ## :arrow_right: [Database-Example](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/DatabaseExample)
+## :arrow_right: [ListView-Adapter](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/ListViewAdapter)
+## :arrow_right: [Contacts-App](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/ContactsApp)
