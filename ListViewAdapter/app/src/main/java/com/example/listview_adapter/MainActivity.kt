@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         var listView : ListView = findViewById(R.id.listView)
         //type mismatch with data, so using adapters
-        var adapter : ArrayAdapter<String> = ArrayAdapter(this,android.R.layout.simple_list_item_1, countries)
+        var adapter : ArrayAdapter<String> = ArrayAdapter(this,android.R.layout.simple_expandable_list_item_1, countries)
         listView.adapter = adapter
     }
 }
