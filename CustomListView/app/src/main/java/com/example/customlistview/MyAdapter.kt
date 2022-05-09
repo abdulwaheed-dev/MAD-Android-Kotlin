@@ -5,8 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 
-class MyAdapter(context: Context, resource: Int, objects: Array<out Any>) :
+class MyAdapter(context: Context, resource: Int, objects: Array<out User>) :
     ArrayAdapter<User>(context, resource, objects) {
 
     val ref = context
@@ -19,7 +21,13 @@ class MyAdapter(context: Context, resource: Int, objects: Array<out Any>) :
             view = LayoutInflater.from(context).inflate(row,parent,false)
         }
 
-        return super.getView(position, convertView, parent)
+        val imageView : ImageView = view!!.findViewById(R.id.imageView)
+        val textView : TextView = view!!.findViewById(R.id.textView)
+
+        imageView.setImageResource(data[position].img)
+        textView.text = data[position].details
+
+        return view!! //!! operator removes nullability
     }
 
 }
