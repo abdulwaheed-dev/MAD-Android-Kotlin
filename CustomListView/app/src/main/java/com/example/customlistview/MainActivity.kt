@@ -7,11 +7,11 @@ import android.widget.ListView
 class MainActivity : AppCompatActivity() {
 
     val data : Array<User> = arrayOf(
-        User(R.drawable.bajwa,"Qamar Javed Bajwa"),
-        User(R.drawable.edhi,"Abdul Sattar Edhi"),
-        User(R.drawable.jinnah,"Muhammad Ali Jinnah"),
-        User(R.drawable.iqbal,"Allama Iqbal"),
-        User(R.drawable.img,"Piyare Bhai")
+        User(R.drawable.bajwa,"Qamar Javed Bajwa","abc@hotmail.com","123 456 789"),
+        User(R.drawable.edhi,"Abdul Sattar Edhi","abc@hotmail.com","123 456 789"),
+        User(R.drawable.jinnah,"Muhammad Ali Jinnah","abc@hotmail.com","123 456 789"),
+        User(R.drawable.iqbal,"Allama Iqbal","abc@hotmail.com","123 456 789"),
+        User(R.drawable.img,"Piyare Bhai","abc@hotmail.com","123 456 789")
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,4 +24,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-data class User(val img:Int,val details:String)
+data class User(val img:Int,val name:String,val email:String,val contact:String)

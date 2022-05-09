@@ -22,10 +22,14 @@ class MyAdapter(context: Context, resource: Int, objects: Array<out User>) :
         }
 
         val imageView : ImageView = view!!.findViewById(R.id.imageView)
-        val textView : TextView = view!!.findViewById(R.id.textView)
+        val nameText : TextView = view!!.findViewById(R.id.textView)
+        val emailText : TextView = view!!.findViewById(R.id.textView2)
+        val contactText : TextView = view!!.findViewById(R.id.textView3)
 
         imageView.setImageResource(data[position].img)
-        textView.text = data[position].details
+        nameText.text = data[position].name
+        emailText.text = data[position].email
+        contactText.text = data[position].contact
 
         return view!! //!! operator removes nullability
     }
