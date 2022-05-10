@@ -1,5 +1,6 @@
 package com.example.lab6task3
 
+import android.media.MediaPlayer
 import android.os.Build
 import android.os.Bundle
 import android.widget.ListView
@@ -42,9 +43,46 @@ class MainActivity : AppCompatActivity() {
             val list = tt.split("=",",")
             val numbr = (list[3]).toString().toLowerCase()
 
+            when(numbr){
+                "one" -> {
+                    var mp = MediaPlayer.create(this,R.raw.one)
+                    mp.start()
+                }
+                "two" -> {
+                    var mp = MediaPlayer.create(this,R.raw.two)
+                    mp.start()
+                }
+                "three" -> {
+                    var mp = MediaPlayer.create(this,R.raw.three)
+                    mp.start()
+                }
+                "four" -> {
+                    var mp = MediaPlayer.create(this,R.raw.four)
+                    mp.start()
+                }
+                "five" -> {
+                    var mp = MediaPlayer.create(this,R.raw.five)
+                    mp.start()
+                }
+                "six" -> {
+                    var mp = MediaPlayer.create(this,R.raw.six)
+                    mp.start()
+                }
+                "seven" -> {
+                    var mp = MediaPlayer.create(this,R.raw.seven)
+                    mp.start()
+                }
+                "eight" -> {
+                    var mp = MediaPlayer.create(this,R.raw.eight)
+                    mp.start()
+                }
+                "nine" -> {
+                    var mp = MediaPlayer.create(this,R.raw.nine)
+                    mp.start()
+                }
+            }
 
             Toast.makeText(this, numbr, Toast.LENGTH_SHORT).show()
-            //Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
 
         }
     }
