@@ -19,3 +19,6 @@
 ## :arrow_right: [ListView-Adapter](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/ListViewAdapter)
 ## :arrow_right: [Contacts-App](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/ContactsApp)
 ## :arrow_right: [Fragment-Example](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/FragmentExample)
+## :arrow_right: [Custom-ListView](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/CustomListView)
+## :arrow_right: [Presidential-Election-Candidates](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/PresidentialElectionCandidates)
+## :arrow_right: [lab6-Task3](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/lab6Task3)
