@@ -5,15 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class GameActivity : AppCompatActivity() {
+class StoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_game)
+        setContentView(R.layout.activity_story)
     }
 
-    fun makeStory(view: View){
-        val intent : Intent = Intent(this,StoryActivity::class.java)
+    fun makeAnotherStory(view: View){
+        val intent : Intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
-
 }
