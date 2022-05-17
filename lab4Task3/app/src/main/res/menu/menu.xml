@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option_1"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/option_2"
+        android:title="Upload" />
+    <item
+        android:id="@+id/option_3"
+        android:title="Copy" />
+    <item
+        android:id="@+id/option_4"
+        android:title="Print" />
+    <item
+        android:id="@+id/option_5"
+        android:title="Share" />
+    <item
+        android:id="@+id/option_6"
+        android:title="BookMark" />
+
+</menu>
