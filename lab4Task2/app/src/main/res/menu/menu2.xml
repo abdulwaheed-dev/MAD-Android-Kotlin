@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/op_1"
+        android:title="option1"
+        android:icon="@drawable/ic_pin"
+        />
+    <item
+        android:id="@+id/op_2"
+        android:title="option2"
+        android:icon="@drawable/ic_hand"
+        />
+    <item
+        android:id="@+id/op_3"
+        android:title="option3"
+        android:icon="@drawable/ic_tick"
+        />
+    <item
+        android:id="@+id/op_4"
+        android:title="option4"
+        android:icon="@drawable/ic_arrow"
+        />
+    <item
+        android:id="@+id/op_5"
+        android:title="other option" />
+    <item
+        android:id="@+id/op_6"
+        android:title="other option2" />
+
+</menu>
