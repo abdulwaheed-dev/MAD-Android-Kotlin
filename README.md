@@ -30,3 +30,5 @@
 ## :arrow_right: [lab4-task3](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/lab4Task3)
 ## :arrow_right: [Volley-Api](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/VollyApi)
 ## :arrow_right: [SQLLiteDB-Example](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/MyApplication4)
+## :arrow_right: [Content-Provider-Example](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/ContentProvider)
+## :arrow_right: [WorkingWithSensor-Example](https://github.com/abdulwaheedchachar/MAD-Android-Kotlin/tree/main/WorkingWithSensor)
